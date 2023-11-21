@@ -1,5 +1,5 @@
 name: Release
-# Release the action on push to master
+# Release the action on push to main
 
 on:
   push:
