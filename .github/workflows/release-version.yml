@@ -17,7 +17,7 @@ jobs:
       release-version-minor: ${{ steps.release.outputs.release-version-minor }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - id: release
         name: semantic-release
         uses: ahmadnassri/action-semantic-release@v1
