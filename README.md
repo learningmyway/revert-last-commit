@@ -2,7 +2,7 @@
 The github action will be used to revert last commit . It is the public repo. Please find the release status from below statis badge
 
 
-[![Release](https://github.com/learningmyway/revert-last-commit/actions/workflows/release-version.yml/badge.svg?branch=main)](https://github.com/learningmyway/revert-last-commit/actions/workflows/release-version.yml)
+[![Build Status][build-status-img]][build-status-url]
 [![license][license-img]][license-url]
 [![release][release-img]][release-url]
 [![semantic][semantic-img]][semantic-url]
@@ -39,3 +39,6 @@ jobs:
 
 [semantic-url]: https://github.com/learningmyway/revert-last-commit/actions?query=workflow%3Arelease
 [semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue
+
+[build-status-url]:https://github.com/learningmyway/revert-last-commit/actions/workflows/release-version.yml
+[build-status-img]:https://github.com/learningmyway/revert-last-commit/actions/workflows/release-version.yml/badge.svg?branch=main
