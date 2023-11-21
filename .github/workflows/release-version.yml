@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - id: release
         name: semantic-release
-        uses: ahmadnassri/action-semantic-release@v1
+        uses: ahmadnassri/action-semantic-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
