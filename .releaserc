@@ -32,5 +32,6 @@
     }],
     "@semantic-release/github"
   ],
-  "branches": ["main"]
+  "branches": ["main"],
+  "repositoryUrl" : "https://github.com/learningmyway/revert-last-commit"
 }
