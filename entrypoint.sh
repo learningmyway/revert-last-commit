@@ -1,6 +1,9 @@
-#!/bin/sh -l
+#!/bin/bash -eux
 
-echo "Hello $1"
-time=$(date)
-echo "time=$time" >> $GITHUB_OUTPUT
+cd "${GITHUB_WORKSPACE}"
 
+git branch ${GITHUB_REF}
+git config --global user.name "github-actions[bot]"
+git config --global user.email "github-actions[bot]@users.noreply.github.com"
+git reset --hard HEAD~1
+git push --force
